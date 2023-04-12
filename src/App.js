@@ -1,13 +1,16 @@
 import logo from './logo1.svg';
 import './App.css';
+import Clock from './index.js';
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
+     <header className="App-header">
+      
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          Willkommen beim PC-Recycling.
         </p>
         <a
           className="App-link"
@@ -16,8 +19,9 @@ function App() {
           rel="noopener noreferrer"
         >
           Ab ins Wiki
+         
         </a>
-      </header>
+      </header> 
     </div>
   );
 }
